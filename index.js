@@ -61,6 +61,12 @@ function animate() {
     earth.rotation.y += 0.01;
     nightmap.rotation.y += 0.01;
 
+    if(window.innerWidth <= 700){
+        div.style.opacity = 0;
+        camera.position.z = 5;
+        renderer.setSize(window.innerWidth, window.innerHeight);
+    }
+
     controls.update();
     renderer.render(scene, camera);
 }
