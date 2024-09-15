@@ -41,10 +41,10 @@ scene.add(sunlight);
 
 // Set up controls
 const controls = new OrbitControls(camera, renderer.domElement);
-controls.enableZoom = true;
+controls.enableZoom = false;
 
 // Set up camera position
-camera.position.z = 3;
+camera.position.z = 2;
 
 // dom js
 const btn = document.querySelector('i');
