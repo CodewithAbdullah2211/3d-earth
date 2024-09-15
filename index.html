@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>obj loader</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="infodiv">
+    <div class="info">
+      <i class="fa fa-times" aria-hidden="true"></i>
+      <h1 class="heading">Earth</h1>
+      <p class="description">Earth, the third planet from the Sun, has a diameter of about 12,742 kilometers (7,918
+        miles) and is unique for its ability to support life. Approximately 71% of its surface is covered by water, with
+        oceans being the predominant feature. The planet's atmosphere is composed primarily of nitrogen (78%) and oxygen
+        (21%), providing a suitable environment for diverse ecosystems such as forests, deserts, and tundras. Earth's
+        core, made of iron and nickel, generates a magnetic field that protects the planet from solar radiation.
+        Orbiting the Sun at an average distance of 149.6 million kilometers (93 million miles), Earth experiences
+        seasons due to its axial tilt of 23.5 degrees. Its surface is dynamic, shaped by tectonic plates that cause
+        earthquakes and volcanic activity.</p>
+    </div>
+  </div>
+
+  <script type="importmap">
+        {
+          "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.168.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.168.0/examples/jsm/"
+          }
+        }
+      </script>
+  <script type="module" src="index.js"></script>
+</body>
+
+</html>
